@@ -1,4 +1,104 @@
 h1{
-	position: absolute;
-	color: #00f
+	position:relative;
+	color: #00f;
+	left:700;
 }
+#tablero{
+	position: relative;
+	height: 800;
+	width: 800;
+	top: 40;
+	left: 500;
+	border: 5px solid black;
+
+}
+#fila{
+   position: absolute;
+   background-color: #000;
+   width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila2{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 100px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila3{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 200px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila4{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 300px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila5{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 400px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila6{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 500px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila7{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 600px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+ #fila8{
+ 	position: absolute;
+ 	background-color: #000;
+ 	left: 700px; 
+ 	top: 0;
+ 	width: 100px;
+   height: 800px;
+   z-index: 0;
+ }
+.blanco{
+	position: relative;
+   background-color: #fff;
+   width: 100px;
+   height:  100px;
+   z-index: 1;   
+}
+.negro{
+	background-color: #A75436;
+	position: relative;
+	width: 100px;
+	height:  100px;
+}
+.fichas{
+	position: absolute;
+	font-size: 650%;
+	top: -15;
+	left: 7;
+}
+

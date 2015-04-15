@@ -29,12 +29,12 @@ HTML Code : & #9819;
 5. White Chess Rock ♖
 
 Unicode : U+2656
-HTML Code : & #9814;
+HTML Code : &#9814;
 
 6. Black Chess Rock ♜
 
 Unicode : U+265C
-HTML Code : & #9820;
+HTML Code : & #9820; font-zise: 150;
 
 7. White Chess Bishop ♗
 
